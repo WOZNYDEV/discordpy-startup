@@ -22,7 +22,7 @@ def countKills():
 
     for i in range(len(profile['data']['segments'])):
         if profile['data']['segments'][i]['metadata']['name'] == 'Wattson':
-            kills = profile['data']['segments'][i]['stats']['season7Kills']
+            kills = profile['data']['segments'][i]['stats']['season7Kills']['displayName']
     return kills
 
 
