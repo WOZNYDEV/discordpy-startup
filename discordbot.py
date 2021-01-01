@@ -37,9 +37,5 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
-@bot.command()
-async def andyu(ctx):
-    await ctx.send(str(countKills()))
-
 
 bot.run(token)
