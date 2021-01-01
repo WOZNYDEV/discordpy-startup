@@ -39,7 +39,7 @@ async def ping(ctx):
 
 @bot.command()
 async def andyu(ctx):
-    await ctx.send(str(countKills()))
+    await ctx.send(countKills())
 
 
 bot.run(token)
